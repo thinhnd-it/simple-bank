@@ -23,5 +23,5 @@ SET balance = $2
 where id = $1
 returning *;
 
--- name: DeleteAuthor :exec
+-- name: DeleteAccount :exec
 DELETE FROM accounts WHERE id = $1;
